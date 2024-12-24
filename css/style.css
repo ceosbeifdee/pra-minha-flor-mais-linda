@@ -167,6 +167,14 @@ body {
     width: 10px;
     top: 50px;
 }
+.ht1::before, .ht2::before, .ht3::before, .ht4::before, .ht5::before, .ht1::after, .ht2::after, .ht3::after, .ht4::after, .ht5::after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+}
 .ht1::before, .ht2::before, .ht3::before, .ht4::before, .ht5::before {
     top: -5px;
     left: 0;
